@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-weight: lighter;
+  font-size: 100%;
+  color: #1E2022;
+}
+
+h1 {
+  color: #1E2022;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.1rem;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.3rem;
+  color: #EDE6DB;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: normal;
+  color: #EDE6DB;
+}
+
+h4 {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.3rem;
+  color: #1E2022;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: normal;
+  color: #EDE6DB;
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+a:hover {
+  color: #52616B;
+}
+
+.profile-1 {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.bio-paragraph {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: #EEEBDD;
+  height: 720px;
+  width: 100%;
+}
+
+.middle-container {
+  background-color: #417D7A;
+  height: 1300px;
+  width: 100%;
+}
+
+.bottom-container {
+  background-color: #1A3C40;
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.btn {
+  background: #153a52;
+  background-image: -webkit-linear-gradient(top, #1D5C63, #1A3C40);
+  background-image: -moz-linear-gradient(top, #1D5C63, #1A3C40);
+  background-image: -ms-linear-gradient(top, #1D5C63, #1A3C40);
+  background-image: -o-linear-gradient(top, #1D5C63, #1A3C40);
+  background-image: linear-gradient(to bottom, #1D5C63, #1A3C40);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #1D5C63;
+  font-family: 'Concert One', cursive;
+  color: #EDE6DB;
+  font-size: 20px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #417D7A;
+  background-image: -webkit-linear-gradient(top, #52616B, #1E2022);
+  background-image: -moz-linear-gradient(top, #52616B, #1E2022);
+  background-image: -ms-linear-gradient(top, #52616B, #1E2022);
+  background-image: -o-linear-gradient(top, #52616B, #1E2022);
+  background-image: linear-gradient(to bottom, #52616B, #1E2022);
+  text-decoration: none;
+  color: #EDE6DB;
+}
+
+.cloud-1 {
+  position: absolute;
+  left: 780px;
+  top: 80px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 320px;
+  top: 150px;
+}
+
+.cloud-3 {
+  position: absolute;
+  left: 1120px;
+  top: 250px;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 60px auto 100px auto;
+}
+
+.skills-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-photo-2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills-photo-3 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dotted-border {
+  width: 3%;
+  border-style: dotted none none;
+  border-width: 5px;
+  margin: 80px auto 80px auto;
+  color: #1A3C40;
+}
+
+.contact-message {
+  margin: 40px auto 40px;
+
+}
+
+.footer-link {
+  color: inherit;
+  font-family: 'Concert One', cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #EDE6DB;
+}
